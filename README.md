@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+Finance Manager App – README
+Project Overview
 
-## Project info
+A simple, mobile-friendly personal finance management app built using Vite, React, TypeScript, Tailwind CSS, and shadcn-ui.
+It helps users track expenses, budgets, and savings with a clean UI and fast performance.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+How to Edit and Run the Project Locally
+1. Prerequisites
 
-## How can I edit this code?
+Make sure you have the following installed:
 
-There are several ways of editing your application.
+Node.js & npm
+Install using: https://github.com/nvm-sh/nvm#installing-and-updating
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Running the Project Locally
 
 Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository  
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Open the folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies  
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server  
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This launches the app with auto-reloading and instant preview.
 
-**Use GitHub Codespaces**
+Editing the Code
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can use any preferred IDE, such as VS Code, to modify and develop the project.
 
-## What technologies are used for this project?
+Deploying the Project
 
-This project is built with:
+You can deploy the app using platforms like:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vercel
 
-## How can I deploy this project?
+Netlify
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+GitHub Pages
 
-## Can I connect a custom domain to my Lovable project?
+Just build the project using:
 
-Yes, you can!
+npm run build
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Then upload the dist/ folder or connect the repo directly to your hosting service.
+
+Tech Stack
+
+This project uses:
+
+⚡ Vite — Fast development and build tool
+
+⚛️ React — UI framework
+
+🧩 TypeScript — Type-safe JavaScript
+
+🎨 Tailwind CSS — Utility-first styling
+
+🧱 shadcn-ui — Beautiful, customizable UI components
