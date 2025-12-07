@@ -65,3 +65,4 @@ This project uses:
 🎨 Tailwind CSS — Utility-first styling
 
 🧱 shadcn-ui — Beautiful, customizable UI components
+
