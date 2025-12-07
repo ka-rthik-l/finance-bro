@@ -1,74 +1,95 @@
-Finance Manager App
+# Finance Manager App
 
 A clean, mobile-friendly personal finance management application designed for students and individuals who want a simple way to track expenses, budgets, and savings. Built with modern technologies for speed, usability, and easy customization.
 
-✨ Features
+---
 
-Expense Tracking – Log daily spending with categories and notes
+## ✨ Features
 
-Budget Management – Set monthly budgets and monitor usage
+* **Expense Tracking** – Log daily spending with categories and notes
+* **Budget Management** – Set monthly budgets and monitor usage
+* **Smart Insights** – Basic suggestions to avoid overspending
+* **Savings Tracker** – Add savings goals and track progress
+* **Responsive UI** – Fully mobile-friendly design
+* **Fast & Lightweight** – Built with Vite for instant loading
+* **Dark/Light Theme (Optional)** – Easy to customize
+* **No Backend Required** – All data stored locally
 
-Smart Insights – Basic suggestions to avoid overspending
+---
 
-Savings Tracker – Add savings goals and track progress
+## 📦 Tech Stack
 
-Responsive UI – Fully mobile-friendly design
+| Technology       | Purpose                                |
+| ---------------- | -------------------------------------- |
+| **React**        | Frontend framework                     |
+| **TypeScript**   | Type safety & cleaner code             |
+| **Vite**         | Fast build tool & dev server           |
+| **Tailwind CSS** | Styling using utility classes          |
+| **shadcn-ui**    | Professional, accessible UI components |
 
-Fast & Lightweight – Built with Vite for instant loading
+---
 
-Dark/Light Theme (Optional) – Easy to customize
+## 🚀 Getting Started (Local Development)
 
-No Backend Required – All data stored locally
+Make sure **Node.js & npm** are installed.
+Install Node easily with nvm: [https://github.com/nvm-sh/nvm#installing-and-updating](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-📦 Tech Stack
-Technology	Purpose
-React	Frontend framework
-TypeScript	Type safety & cleaner code
-Vite	Fast build tool & dev server
-Tailwind CSS	Styling using utility classes
-shadcn-ui	Professional, accessible UI components
-🚀 Getting Started (Local Development)
+### 1. Clone the repository
 
-Make sure Node.js & npm are installed.
-Install Node easily with nvm: https://github.com/nvm-sh/nvm#installing-and-updating
-
-1. Clone the repository
+```sh
 git clone <YOUR_GIT_URL>
+```
 
-2. Enter the project folder
+### 2. Enter the project folder
+
+```sh
 cd <YOUR_PROJECT_NAME>
+```
 
-3. Install dependencies
+### 3. Install dependencies
+
+```sh
 npm install
+```
 
-4. Start the development server
+### 4. Start the development server
+
+```sh
 npm run dev
+```
 
+Your app will launch with auto-reloading and instant preview.
 
-Your app will open with auto-reload and instant preview.
+---
 
-📤 Deployment
+## 📤 Deployment
 
 You can deploy the app easily using:
 
-Vercel
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
 
-Netlify
+### Build the project:
 
-GitHub Pages
-
-Build the project:
+```sh
 npm run build
+```
 
+Upload the generated **dist/** folder, or connect your GitHub repo directly to your hosting service.
 
-Upload the generated dist/ folder, or connect your GitHub repo directly to your hosting service.
+---
 
-🛠️ Editing the Project
+## 🛠️ Editing the Project
 
-You can edit the code using any IDE, such as VS Code.
-All components and pages are structured cleanly for easy modification.
+You can modify the code using any IDE, such as **VS Code**.
+Components and pages are structured cleanly for easy development.
 
-📁 Recommended Project Structure
+---
+
+## 📁 Recommended Project Structure
+
+```
 src/
  ├── components/
  ├── pages/
@@ -78,13 +99,15 @@ src/
  ├── App.tsx
  ├── main.tsx
  └── index.css
+```
 
-📚 Future Enhancements (Optional)
+---
 
-Expense analytics with charts
+## 📚 Future Enhancements (Optional)
 
-Multi-currency support
+* Expense analytics with charts
+* Multi-currency support
+* Cloud sync option
+* Notifications for budget limits
 
-Cloud sync option
-
-Notifications for budget limits
+---
